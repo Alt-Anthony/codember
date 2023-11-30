@@ -1,7 +1,5 @@
 with open("encryption_policies.txt") as lista:
     leer = lista.read()
-abc=["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-numeros=["1","2","3","4","5","6","7","8","9","0"]
 total =0
 totalbuenas =0
 listconverted = leer.split("\n")
